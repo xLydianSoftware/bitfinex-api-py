@@ -9,9 +9,9 @@ setup(
         "for both REST and websocket interaction."
     ),
     long_description_content_type="text/markdown",
-    url="https://github.com/bitfinexcom/bitfinex-api-py",
-    author="Bitfinex",
-    author_email="support@bitfinex.com",
+    url="https://github.com/xLydianSoftware/bitfinex-api-py",
+    author="Yuriy Arabsky",
+    author_email="yuriy.arabsky@xlydian.com",
     license="Apache-2.0",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -26,10 +26,7 @@ setup(
         "Programming Language :: Python :: 3.13",
     ],
     keywords="bitfinex,api,trading",
-    project_urls={
-        "Bug Reports": "https://github.com/bitfinexcom/bitfinex-api-py/issues",
-        "Source": "https://github.com/bitfinexcom/bitfinex-api-py",
-    },
+    project_urls={},
     packages=[
         "bfxapi",
         "bfxapi._utils",
